@@ -2,6 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/aidaningram/Desktop/348-IngramLab5/Exercise1/exercise1-Ingram'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F58, symSize: 0x34 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F58, symSize: 0x34 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _average, symObjAddr: 0x0, symBinAddr: 0x100003BCC, symSize: 0x88 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _average, symObjAddr: 0x0, symBinAddr: 0x100003BCC, symSize: 0x88 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _findmax, symObjAddr: 0x88, symBinAddr: 0x100003C54, symSize: 0x88 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _findmin, symObjAddr: 0x110, symBinAddr: 0x100003CDC, symSize: 0x88 }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x198, symBinAddr: 0x100003D64, symSize: 0x118 }
 ...
