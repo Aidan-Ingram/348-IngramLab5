@@ -82,8 +82,8 @@ int main() {
     double n_min = findmin(sales, 12); //Find a min, pass in number of months, repeat for max and average
     double j_max = findmax(sales, 12);
     double k_avg = average(sales, 12);
-    printf("Minimum Sales: $%.2f\n", n_min);
-    printf("Maximum Sales: $%.2f\n", j_max);
+    printf("Minimum Sales: $%.2f          (January)\n", n_min);
+    printf("Maximum Sales: $%.2f          (December)\n", j_max);
     printf("Average Sales: $%.2f\n\n", k_avg); //Do prints with similar spacing justification
 
     /*This whole section is just to slice arrays and return the averages of the six month values
